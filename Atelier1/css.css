@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+#part1 {
+    /* width: 1440px; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+#e1 { 
+    color: #511f50;
+}
+
+#e2 {
+    display: flex;
+    direction: rtl;
+    flex-direction: column;
+}
+
+.str1 {
+    position: relative;
+    justify-content: space-between;
+    width: 450px;
+    margin: 10px;
+    background-color: #f7f2f8;
+    padding: 20px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    color: #511f50;
+    direction: ltr;
+    border-radius: 15px;
+    display: inline-flex;
+    position: relative;
+    right: 90px;
+}
+
+.str2 {
+    position: relative;
+    justify-content: space-between;
+    width: 450px;
+    margin: 10px;
+    background-color: #f7f2f8;
+    padding: 20px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    color: #511f50;
+    direction: ltr;
+    border-radius: 15px;
+    display: inline-flex;
+}
+
+.str3 {
+    position: relative;
+    justify-content: space-between;
+    width: 450px;
+    margin: 10px;
+    background-color: #f7f2f8;
+    padding: 20px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    color: #511f50;
+    direction: ltr;
+    border-radius: 15px;
+    display: inline-flex;
+    position: relative;
+    left: 90px;
+}
+
+#part2 {
+    color: white;
+    width: 1440px;
+    display: flex;
+    direction: rtl;
+    flex-direction: row;
+    margin: auto;
+}
+
+.buyer1 {
+    /* display: inline-flex ; */
+    margin: 10px;
+    padding: 30px;
+    background-color: #511f50;
+    direction: ltr;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.buyer2 {
+    /* display: inline-flex ; */
+    margin: 10px;
+    padding: 30px;
+    background-color: #511f50;
+    direction: ltr;
+    border-radius: 20px;
+}
+
+.buyer3 {
+    /* display: inline-flex ; */
+    margin: 10px;
+    padding: 30px;
+    background-color: #511f50;
+    direction: ltr;
+    border-radius: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+
+.name {
+    position: relative;
+    left: 90px;
+    bottom: 60px;
+}
+
+#main {
+    width: 1440px;
+    margin: auto;
+    background-image: url('./images/bg-pattern-bottom-desktop.svg');
+}
